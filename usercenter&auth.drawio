@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T08:38:32.990Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="_3PXuOLMZ5-zXUtV3N8D" version="14.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-16T09:35:49.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="2EUwJ9mxk0vjVYNLzsDo" version="14.6.0" type="github" pages="2">
   <diagram id="KvxnXL9xQ23brNt6XLM1" name="整体架构">
     <mxGraphModel dx="2249" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,9 +26,6 @@
         </mxCell>
         <mxCell id="bchVWrmJO30L1jl_ZFXl-3" value="browser" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-90" y="130" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="bchVWrmJO30L1jl_ZFXl-5" value="首次登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="40" y="60" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bchVWrmJO30L1jl_ZFXl-6" value="edge/auth-login" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="70" y="130" width="140" height="30" as="geometry" />
@@ -153,8 +150,8 @@
         <mxCell id="bchVWrmJO30L1jl_ZFXl-49" value="请求accessToken" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="560" y="560" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="bchVWrmJO30L1jl_ZFXl-50" value="返回access token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="170" y="600" width="110" height="20" as="geometry" />
+        <mxCell id="bchVWrmJO30L1jl_ZFXl-50" value="返回access token，Union_ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="600" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bchVWrmJO30L1jl_ZFXl-52" value="" style="endArrow=open;endFill=1;endSize=12;html=1;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -286,6 +283,9 @@
         </mxCell>
         <mxCell id="bchVWrmJO30L1jl_ZFXl-83" value="返回结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-10" y="1010" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bchVWrmJO30L1jl_ZFXl-84" value="首次登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="80" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
