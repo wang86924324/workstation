@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-19T02:02:01.063Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="XL64qiKlPP0Ltu7f1OU7" version="14.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-19T02:50:27.703Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="fqbyU1d8QqNz1_5ZUX7w" version="14.6.0" type="github" pages="2">
   <diagram id="QFJvEYgaLnlNwJEcihQy" name="MVC ArgumentResolver">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -168,19 +168,19 @@
         </mxCell>
         <mxCell id="LBlyevQMXBGWfhFoGSlw-5" value="" style="endArrow=none;html=1;fontSize=16;" edge="1" parent="LBlyevQMXBGWfhFoGSlw-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="220" y="710" as="sourcePoint" />
+            <mxPoint x="220" y="920" as="sourcePoint" />
             <mxPoint x="219.5" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LBlyevQMXBGWfhFoGSlw-7" value="" style="endArrow=none;html=1;fontSize=16;" edge="1" parent="LBlyevQMXBGWfhFoGSlw-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="470.5" y="710" as="sourcePoint" />
+            <mxPoint x="470" y="910" as="sourcePoint" />
             <mxPoint x="470" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LBlyevQMXBGWfhFoGSlw-8" value="" style="endArrow=none;html=1;fontSize=16;" edge="1" parent="LBlyevQMXBGWfhFoGSlw-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="690" y="710" as="sourcePoint" />
+            <mxPoint x="690" y="910" as="sourcePoint" />
             <mxPoint x="689.5" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -195,8 +195,8 @@
         </mxCell>
         <mxCell id="LBlyevQMXBGWfhFoGSlw-12" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="LBlyevQMXBGWfhFoGSlw-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="330" as="sourcePoint" />
-            <mxPoint x="450" y="330" as="targetPoint" />
+            <mxPoint x="230" y="350" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LBlyevQMXBGWfhFoGSlw-13" value="calPremium&lt;br&gt;(ProductIfno,CampaignCode)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="LBlyevQMXBGWfhFoGSlw-1">
@@ -204,57 +204,75 @@
         </mxCell>
         <mxCell id="LBlyevQMXBGWfhFoGSlw-14" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="LBlyevQMXBGWfhFoGSlw-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="410" as="sourcePoint" />
-            <mxPoint x="680" y="410" as="targetPoint" />
+            <mxPoint x="480" y="480" as="sourcePoint" />
+            <mxPoint x="680" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LBlyevQMXBGWfhFoGSlw-17" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="LBlyevQMXBGWfhFoGSlw-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="680" y="470" as="sourcePoint" />
-            <mxPoint x="480" y="470" as="targetPoint" />
+            <mxPoint x="680" y="540" as="sourcePoint" />
+            <mxPoint x="480" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LBlyevQMXBGWfhFoGSlw-18" value="返回原价,优惠价" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="LBlyevQMXBGWfhFoGSlw-1">
-          <mxGeometry x="510" y="440" width="130" height="20" as="geometry" />
+          <mxGeometry x="510" y="510" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LBlyevQMXBGWfhFoGSlw-19" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="LBlyevQMXBGWfhFoGSlw-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="437.5" y="570" as="sourcePoint" />
-            <mxPoint x="237.5" y="570" as="targetPoint" />
+            <mxPoint x="437.5" y="640" as="sourcePoint" />
+            <mxPoint x="237.5" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LBlyevQMXBGWfhFoGSlw-20" value="返回原价和优惠价" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="LBlyevQMXBGWfhFoGSlw-1">
-          <mxGeometry x="262.5" y="540" width="140" height="20" as="geometry" />
+          <mxGeometry x="262.5" y="610" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LBlyevQMXBGWfhFoGSlw-21" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="LBlyevQMXBGWfhFoGSlw-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="680" as="sourcePoint" />
-            <mxPoint x="10" y="680" as="targetPoint" />
+            <mxPoint x="210" y="750" as="sourcePoint" />
+            <mxPoint x="10" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LBlyevQMXBGWfhFoGSlw-22" value="提交的订单返回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="LBlyevQMXBGWfhFoGSlw-1">
-          <mxGeometry x="45" y="650" width="130" height="20" as="geometry" />
+          <mxGeometry x="45" y="720" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LBlyevQMXBGWfhFoGSlw-26" value="" style="endArrow=classic;html=1;fontSize=16;edgeStyle=elbowEdgeStyle;" edge="1" parent="LBlyevQMXBGWfhFoGSlw-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="235" y="610" as="sourcePoint" />
-            <mxPoint x="235" y="650" as="targetPoint" />
+            <mxPoint x="235" y="680" as="sourcePoint" />
+            <mxPoint x="235" y="720" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="315" y="670" />
+              <mxPoint x="315" y="740" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="LBlyevQMXBGWfhFoGSlw-27" value="其他提交订单流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="LBlyevQMXBGWfhFoGSlw-1">
-          <mxGeometry x="310" y="620" width="140" height="20" as="geometry" />
+          <mxGeometry x="310" y="690" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LBlyevQMXBGWfhFoGSlw-28" value="calPremium&lt;br&gt;(ProductIfno,PremiumCampCode)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="LBlyevQMXBGWfhFoGSlw-1">
-          <mxGeometry x="460" y="360" width="260" height="40" as="geometry" />
+          <mxGeometry x="460" y="430" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LBlyevQMXBGWfhFoGSlw-29" value="营销中心会配置活动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="LBlyevQMXBGWfhFoGSlw-1">
           <mxGeometry x="-20" y="20" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="LBlyevQMXBGWfhFoGSlw-30" value="sales/activity" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="LBlyevQMXBGWfhFoGSlw-1">
-          <mxGeometry x="414" y="110" width="110" height="20" as="geometry" />
+        <mxCell id="LBlyevQMXBGWfhFoGSlw-30" value="经代端活动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="LBlyevQMXBGWfhFoGSlw-1">
+          <mxGeometry x="414" y="140" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LBlyevQMXBGWfhFoGSlw-31" value="包含保险端活动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="LBlyevQMXBGWfhFoGSlw-1">
+          <mxGeometry x="625" y="120" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LBlyevQMXBGWfhFoGSlw-32" value="优惠码、黑白名单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="LBlyevQMXBGWfhFoGSlw-1">
+          <mxGeometry x="414" y="110" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LBlyevQMXBGWfhFoGSlw-33" value="" style="endArrow=classic;html=1;fontSize=16;edgeStyle=elbowEdgeStyle;" edge="1" parent="LBlyevQMXBGWfhFoGSlw-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="380" as="sourcePoint" />
+            <mxPoint x="475" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="555" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LBlyevQMXBGWfhFoGSlw-34" value="经代端活动业务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=16;" vertex="1" parent="LBlyevQMXBGWfhFoGSlw-1">
+          <mxGeometry x="555" y="390" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
