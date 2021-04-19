@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-19T02:03:06.096Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="aiAWBa-Sf-zJ5tVl56MU" version="14.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-19T02:05:13.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="H0D6ypj1VclqwWj6tBNT" version="14.6.0" type="github" pages="2">
   <diagram id="KvxnXL9xQ23brNt6XLM1" name="整体架构">
     <mxGraphModel dx="2249" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8NJ5oGU7HI4HBlRsFjmk-1" value="核心需求： 类似于支持微信登录和支付宝登录。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="10" width="270" height="20" as="geometry" />
+          <mxGeometry x="-50" y="20" width="270" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8NJ5oGU7HI4HBlRsFjmk-2" value="usercenter" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="450" y="130" width="110" height="30" as="geometry" />
@@ -177,8 +177,8 @@
             <mxPoint x="495" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bchVWrmJO30L1jl_ZFXl-57" value="注册并登陆" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="170" y="730" width="80" height="20" as="geometry" />
+        <mxCell id="bchVWrmJO30L1jl_ZFXl-57" value="注册并登陆，如果已经有账号，就直接登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="730" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bchVWrmJO30L1jl_ZFXl-62" value="1.注册&lt;br&gt;2.登陆" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="1">
           <mxGeometry y="10" relative="1" as="geometry">
@@ -285,7 +285,7 @@
           <mxGeometry x="-10" y="1010" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bchVWrmJO30L1jl_ZFXl-84" value="首次登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="80" width="60" height="20" as="geometry" />
+          <mxGeometry x="-90" y="190" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
