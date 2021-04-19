@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-19T10:30:57.931Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="DxHUa2WzErdWnXLE-LHh" version="14.6.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-04-19T10:31:05.999Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="WnsB6xhr2ysqba-tkFUB" version="14.6.0" type="github" pages="3">
   <diagram id="yBvCHe0X85MX-63PUshE" name="Page-1">
     <mxGraphModel dx="1422" dy="2051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -177,9 +177,6 @@
             <mxPoint x="109" y="40" as="sourcePoint" />
             <mxPoint x="109" y="110" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="nruwcGsu7QWdGJffHHDV-50" value="创建投保单" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="nruwcGsu7QWdGJffHHDV-1" vertex="1">
-          <mxGeometry x="480" y="550" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="e-5wMl_sYkkhePmgbXTY-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nruwcGsu7QWdGJffHHDV-1" source="e-5wMl_sYkkhePmgbXTY-2" target="e-5wMl_sYkkhePmgbXTY-4">
           <mxGeometry relative="1" as="geometry" />
