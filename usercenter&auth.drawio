@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-19T02:05:13.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="H0D6ypj1VclqwWj6tBNT" version="14.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-22T03:21:17.952Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="R6q-FzV9_uuU310ukjcp" version="14.6.0" type="github" pages="3">
   <diagram id="KvxnXL9xQ23brNt6XLM1" name="整体架构">
     <mxGraphModel dx="2249" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,12 +11,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="c5WNmO4PHSdFKHDVmXZQ" name="三方登录">
-    <mxGraphModel dx="2249" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2500" dy="1038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8NJ5oGU7HI4HBlRsFjmk-1" value="核心需求： 类似于支持微信登录和支付宝登录。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="20" width="270" height="20" as="geometry" />
+          <mxGeometry x="-90" y="100" width="270" height="20" as="geometry" />
         </mxCell>
         <mxCell id="8NJ5oGU7HI4HBlRsFjmk-2" value="usercenter" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="450" y="130" width="110" height="30" as="geometry" />
@@ -144,7 +144,7 @@
         <mxCell id="bchVWrmJO30L1jl_ZFXl-48" value="" style="endArrow=open;endFill=1;endSize=12;html=1;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="150" y="584" as="sourcePoint" />
-            <mxPoint x="705" y="584" as="targetPoint" />
+            <mxPoint x="690" y="584" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bchVWrmJO30L1jl_ZFXl-49" value="请求accessToken" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
@@ -287,6 +287,14 @@
         <mxCell id="bchVWrmJO30L1jl_ZFXl-84" value="首次登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-90" y="190" width="60" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6tPf67FEJ431Vucu4eE2" name="Page-3">
+    <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="2NtVcqrS6Zlltz5alzQH-0" />
+        <mxCell id="2NtVcqrS6Zlltz5alzQH-1" parent="2NtVcqrS6Zlltz5alzQH-0" />
       </root>
     </mxGraphModel>
   </diagram>
