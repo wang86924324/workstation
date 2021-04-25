@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-25T07:17:39.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="l-eIiVoXSF8Nl1vw7pl3" version="14.6.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-04-25T08:09:26.803Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="-YU2wBpseTQFPMmlZmOZ" version="14.6.0" type="github" pages="7">
   <diagram id="yBvCHe0X85MX-63PUshE" name="Page-1">
     <mxGraphModel dx="1422" dy="2051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,7 +100,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6kMost_xrClsJOgGkS2W" name="出单流程">
-    <mxGraphModel dx="2249" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="882" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="nruwcGsu7QWdGJffHHDV-0" />
         <mxCell id="nruwcGsu7QWdGJffHHDV-1" parent="nruwcGsu7QWdGJffHHDV-0" />
@@ -248,8 +248,73 @@
         <mxCell id="guSZXWq0KHjyswAdpPWm-1" value="https://zhuanlan.zhihu.com/p/148504094" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="nruwcGsu7QWdGJffHHDV-1">
           <mxGeometry x="-280" y="1149" width="230" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="UDcymGomPtovaiq5EuuF-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="nruwcGsu7QWdGJffHHDV-1" source="UDcymGomPtovaiq5EuuF-1" target="UmdsBGTvg2Kei0zXHdWZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UDcymGomPtovaiq5EuuF-1" value="发送出单成功通知" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="nruwcGsu7QWdGJffHHDV-1">
-          <mxGeometry x="637" y="1025" width="120" height="60" as="geometry" />
+          <mxGeometry x="627" y="1025" width="139" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="UDcymGomPtovaiq5EuuF-3" value="如果不是3，那么调用PostPolicyHandler#post" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="nruwcGsu7QWdGJffHHDV-1">
+          <mxGeometry x="584" y="975" width="252" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="UDcymGomPtovaiq5EuuF-6" value="保险公司出单的方式:1-同步, 2-异步, 3-异步回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="nruwcGsu7QWdGJffHHDV-1">
+          <mxGeometry x="581" y="953" width="263" height="18" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="P1RXpHExJ-rS9fAJpWf-" name="异步出单流程">
+    <mxGraphModel dx="1422" dy="882" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="B6R7cs2e2UT-xaL5vgbs-0" />
+        <mxCell id="B6R7cs2e2UT-xaL5vgbs-1" parent="B6R7cs2e2UT-xaL5vgbs-0" />
+        <mxCell id="B6R7cs2e2UT-xaL5vgbs-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="B6R7cs2e2UT-xaL5vgbs-1" source="B6R7cs2e2UT-xaL5vgbs-2" target="B6R7cs2e2UT-xaL5vgbs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6R7cs2e2UT-xaL5vgbs-2" value="/policy/confirmation" style="html=1;" vertex="1" parent="B6R7cs2e2UT-xaL5vgbs-1">
+          <mxGeometry x="34" y="50" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B6R7cs2e2UT-xaL5vgbs-3" value="保险公司回调接口" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#000000;html=1;" vertex="1" parent="B6R7cs2e2UT-xaL5vgbs-1">
+          <mxGeometry x="34" y="20" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B6R7cs2e2UT-xaL5vgbs-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;" edge="1" parent="B6R7cs2e2UT-xaL5vgbs-1" source="B6R7cs2e2UT-xaL5vgbs-4" target="B6R7cs2e2UT-xaL5vgbs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nTLfvf3ZQYn8hfONtQkp-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontColor=#000000;strokeColor=#000000;" edge="1" parent="B6R7cs2e2UT-xaL5vgbs-1" source="B6R7cs2e2UT-xaL5vgbs-4" target="nTLfvf3ZQYn8hfONtQkp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6R7cs2e2UT-xaL5vgbs-4" value="保单确认" style="html=1;" vertex="1" parent="B6R7cs2e2UT-xaL5vgbs-1">
+          <mxGeometry x="34" y="175" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B6R7cs2e2UT-xaL5vgbs-6" value="DefaultInsureCallbackHandler&lt;br&gt;#policyConfirmation" style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#000000;html=1;" vertex="1" parent="B6R7cs2e2UT-xaL5vgbs-1">
+          <mxGeometry x="95" y="114" width="169" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="B6R7cs2e2UT-xaL5vgbs-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;" edge="1" parent="B6R7cs2e2UT-xaL5vgbs-1" source="B6R7cs2e2UT-xaL5vgbs-7" target="B6R7cs2e2UT-xaL5vgbs-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6R7cs2e2UT-xaL5vgbs-7" value="更新订单信息" style="html=1;" vertex="1" parent="B6R7cs2e2UT-xaL5vgbs-1">
+          <mxGeometry x="237" y="175" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B6R7cs2e2UT-xaL5vgbs-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;" edge="1" parent="B6R7cs2e2UT-xaL5vgbs-1" source="B6R7cs2e2UT-xaL5vgbs-9" target="B6R7cs2e2UT-xaL5vgbs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6R7cs2e2UT-xaL5vgbs-9" value="更新本地投保单信息" style="html=1;" vertex="1" parent="B6R7cs2e2UT-xaL5vgbs-1">
+          <mxGeometry x="237" y="305" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B6R7cs2e2UT-xaL5vgbs-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#000000;" edge="1" parent="B6R7cs2e2UT-xaL5vgbs-1" source="B6R7cs2e2UT-xaL5vgbs-11" target="B6R7cs2e2UT-xaL5vgbs-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6R7cs2e2UT-xaL5vgbs-11" value="Graphene出单" style="html=1;" vertex="1" parent="B6R7cs2e2UT-xaL5vgbs-1">
+          <mxGeometry x="237" y="435" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nTLfvf3ZQYn8hfONtQkp-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;dashed=1;" edge="1" parent="B6R7cs2e2UT-xaL5vgbs-1" source="B6R7cs2e2UT-xaL5vgbs-13" target="B6R7cs2e2UT-xaL5vgbs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6R7cs2e2UT-xaL5vgbs-13" value="发送出单成功消息" style="html=1;" vertex="1" parent="B6R7cs2e2UT-xaL5vgbs-1">
+          <mxGeometry x="237" y="565" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nTLfvf3ZQYn8hfONtQkp-1" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="B6R7cs2e2UT-xaL5vgbs-1">
+          <mxGeometry x="29" y="300" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
