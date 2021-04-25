@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-25T07:03:29.668Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="l84ljmxHlC1QgziAt6ej" version="14.6.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-04-25T07:17:39.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="l-eIiVoXSF8Nl1vw7pl3" version="14.6.0" type="github" pages="6">
   <diagram id="yBvCHe0X85MX-63PUshE" name="Page-1">
     <mxGraphModel dx="1422" dy="2051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -208,6 +208,9 @@
         <mxCell id="UmdsBGTvg2Kei0zXHdWZ-7" value="出单" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="nruwcGsu7QWdGJffHHDV-1">
           <mxGeometry x="331" y="885" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="UDcymGomPtovaiq5EuuF-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nruwcGsu7QWdGJffHHDV-1" source="UmdsBGTvg2Kei0zXHdWZ-8" target="UDcymGomPtovaiq5EuuF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UmdsBGTvg2Kei0zXHdWZ-8" value="确认保单" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="nruwcGsu7QWdGJffHHDV-1">
           <mxGeometry x="637" y="885" width="120" height="60" as="geometry" />
         </mxCell>
@@ -244,6 +247,9 @@
         </mxCell>
         <mxCell id="guSZXWq0KHjyswAdpPWm-1" value="https://zhuanlan.zhihu.com/p/148504094" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="nruwcGsu7QWdGJffHHDV-1">
           <mxGeometry x="-280" y="1149" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UDcymGomPtovaiq5EuuF-1" value="发送出单成功通知" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="nruwcGsu7QWdGJffHHDV-1">
+          <mxGeometry x="637" y="1025" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
