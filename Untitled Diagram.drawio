@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-30T09:28:03.197Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="XMI_Dx2B5Q7Ce8_q4fyX" version="14.6.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-04-30T09:29:12.234Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="YjZx5NVuOzNYrypWy026" version="14.6.1" type="github" pages="9">
   <diagram id="yBvCHe0X85MX-63PUshE" name="Page-1">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -958,7 +958,7 @@
         <mxCell id="29PMBLTJ__RcM9jtOoR4-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="cgToNIRmxweL9J4K6Hwx-1" source="0vwhYSBhEatfXBQI3nwf-70" target="29PMBLTJ__RcM9jtOoR4-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0vwhYSBhEatfXBQI3nwf-70" value="删除ICAM账号" style="whiteSpace=wrap;html=1;fontSize=3;align=left;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
+        <mxCell id="0vwhYSBhEatfXBQI3nwf-70" value="删除ICAM账号" style="whiteSpace=wrap;html=1;fontSize=3;align=center;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
           <mxGeometry x="766" y="1746" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0vwhYSBhEatfXBQI3nwf-74" value="返回用户确认" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=3;fontColor=#000000;strokeColor=#000000;" parent="cgToNIRmxweL9J4K6Hwx-1" source="0vwhYSBhEatfXBQI3nwf-73" edge="1">
@@ -1128,7 +1128,7 @@
         <mxCell id="0vwhYSBhEatfXBQI3nwf-124" value="调用ICAM创建账号" style="whiteSpace=wrap;html=1;fontSize=3;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
           <mxGeometry x="263.5" y="1356" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0vwhYSBhEatfXBQI3nwf-126" value="创建ICAM信息" style="whiteSpace=wrap;html=1;rounded=0;fontSize=3;align=left;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
+        <mxCell id="0vwhYSBhEatfXBQI3nwf-126" value="创建ICAM信息" style="whiteSpace=wrap;html=1;rounded=0;fontSize=3;align=center;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
           <mxGeometry x="758" y="1354" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0vwhYSBhEatfXBQI3nwf-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=3;fontColor=#000000;strokeColor=#000000;dashed=1;" parent="cgToNIRmxweL9J4K6Hwx-1" edge="1">
@@ -1211,8 +1211,8 @@
         <mxCell id="6ahAS_vSr0ikRgItPHXd-4" value="end" style="ellipse;whiteSpace=wrap;html=1;fontSize=3;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
           <mxGeometry x="-72" y="1872" width="120" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="29PMBLTJ__RcM9jtOoR4-0" value="end" style="ellipse;whiteSpace=wrap;html=1;fontSize=3;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="cgToNIRmxweL9J4K6Hwx-1">
-          <mxGeometry x="1055" y="1746" width="120" height="60" as="geometry" />
+        <mxCell id="29PMBLTJ__RcM9jtOoR4-0" value="end" style="ellipse;whiteSpace=wrap;html=1;fontSize=3;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="cgToNIRmxweL9J4K6Hwx-1">
+          <mxGeometry x="1055" y="1746" width="75" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
