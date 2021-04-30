@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-30T09:34:19.865Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="7O26YlTFg9Mz7zloX2IP" version="14.6.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-04-30T09:36:29.150Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="27e45VNfVzRixQnau-aG" version="14.6.1" type="github" pages="9">
   <diagram id="yBvCHe0X85MX-63PUshE" name="Page-1">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -966,7 +966,7 @@
             <mxPoint x="106" y="1670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0vwhYSBhEatfXBQI3nwf-73" value="新增pending状态的账号" style="whiteSpace=wrap;html=1;fontSize=3;align=left;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
+        <mxCell id="0vwhYSBhEatfXBQI3nwf-73" value="新增pending状态的账号" style="whiteSpace=wrap;html=1;fontSize=3;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
           <mxGeometry x="273" y="1640" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0vwhYSBhEatfXBQI3nwf-77" value="" style="endArrow=none;dashed=1;html=1;fontSize=3;fontColor=#000000;strokeColor=#000000;" parent="cgToNIRmxweL9J4K6Hwx-1" edge="1">
@@ -1003,7 +1003,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0vwhYSBhEatfXBQI3nwf-81" value="新增inpending状态的账号，并标记AML校验不通过" style="whiteSpace=wrap;html=1;fontSize=3;align=left;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
+        <mxCell id="0vwhYSBhEatfXBQI3nwf-81" value="新增pending状态的账号，并标记AML校验不通过" style="whiteSpace=wrap;html=1;fontSize=3;align=left;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
           <mxGeometry x="275" y="2181" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0vwhYSBhEatfXBQI3nwf-86" value="通知用户后面接着操作" style="rounded=0;whiteSpace=wrap;html=1;fontSize=3;strokeColor=#9673a6;align=left;fillColor=#e1d5e7;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
@@ -1058,7 +1058,7 @@
         <mxCell id="0vwhYSBhEatfXBQI3nwf-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=3;fontColor=#000000;strokeColor=#000000;" parent="cgToNIRmxweL9J4K6Hwx-1" source="0vwhYSBhEatfXBQI3nwf-106" target="0vwhYSBhEatfXBQI3nwf-108" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0vwhYSBhEatfXBQI3nwf-106" value="更新账号为inavtive状态" style="whiteSpace=wrap;html=1;fontSize=3;align=center;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
+        <mxCell id="0vwhYSBhEatfXBQI3nwf-106" value="更新账号为inavtive状态" style="whiteSpace=wrap;html=1;fontSize=3;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
           <mxGeometry x="299.5" y="2518" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0vwhYSBhEatfXBQI3nwf-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=3;fontColor=#000000;strokeColor=#000000;" parent="cgToNIRmxweL9J4K6Hwx-1" source="0vwhYSBhEatfXBQI3nwf-108" target="0vwhYSBhEatfXBQI3nwf-110" edge="1">
@@ -1080,7 +1080,7 @@
         <mxCell id="0vwhYSBhEatfXBQI3nwf-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=3;fontColor=#000000;strokeColor=#000000;" parent="cgToNIRmxweL9J4K6Hwx-1" source="0vwhYSBhEatfXBQI3nwf-112" target="0vwhYSBhEatfXBQI3nwf-114" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0vwhYSBhEatfXBQI3nwf-112" value="更新账号为激活状态" style="whiteSpace=wrap;html=1;fontSize=3;align=left;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
+        <mxCell id="0vwhYSBhEatfXBQI3nwf-112" value="更新账号为激活状态" style="whiteSpace=wrap;html=1;fontSize=3;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
           <mxGeometry x="299.5" y="2709" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0vwhYSBhEatfXBQI3nwf-114" value="end" style="ellipse;whiteSpace=wrap;html=1;fontSize=3;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
@@ -1227,19 +1227,6 @@
         </mxCell>
         <mxCell id="T153C9Wbja0R24q8fntP-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="MmOCJaQO2A9wipT8HTde-1" source="o6kn5HUl2Uy2k6TkLRGO-0" target="T153C9Wbja0R24q8fntP-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bV50PSvKtG0tpUOm2ODr-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="MmOCJaQO2A9wipT8HTde-1" source="o6kn5HUl2Uy2k6TkLRGO-0" target="T153C9Wbja0R24q8fntP-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="95" y="100" />
-              <mxPoint x="414" y="100" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bV50PSvKtG0tpUOm2ODr-1" value="自动注册，校验通过，创建ICAM成功，AML通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bV50PSvKtG0tpUOm2ODr-0">
-          <mxGeometry x="-0.3959" y="2" relative="1" as="geometry">
-            <mxPoint x="69" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="o6kn5HUl2Uy2k6TkLRGO-0" value="填写信息" style="ellipse;whiteSpace=wrap;html=1;" parent="MmOCJaQO2A9wipT8HTde-1" vertex="1">
           <mxGeometry x="70" y="150" width="50" height="50" as="geometry" />
