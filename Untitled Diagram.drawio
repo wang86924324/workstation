@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-30T09:29:12.234Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="YjZx5NVuOzNYrypWy026" version="14.6.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-04-30T09:30:05.295Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="SvCWhUyQ69AIyuWMw5go" version="14.6.1" type="github" pages="9">
   <diagram id="yBvCHe0X85MX-63PUshE" name="Page-1">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1016,7 +1016,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0vwhYSBhEatfXBQI3nwf-96" value="手动check" style="whiteSpace=wrap;html=1;fontSize=3;align=left;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
+        <mxCell id="0vwhYSBhEatfXBQI3nwf-96" value="手动check" style="whiteSpace=wrap;html=1;fontSize=3;align=center;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
           <mxGeometry x="1023.5" y="2300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0vwhYSBhEatfXBQI3nwf-103" value="REJECT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=3;fontColor=#000000;strokeColor=#000000;" parent="cgToNIRmxweL9J4K6Hwx-1" source="0vwhYSBhEatfXBQI3nwf-97" target="0vwhYSBhEatfXBQI3nwf-98" edge="1">
@@ -1046,10 +1046,10 @@
             <mxPoint x="74.5" y="2455" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0vwhYSBhEatfXBQI3nwf-98" value="删除账号" style="whiteSpace=wrap;html=1;fontSize=3;align=left;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
+        <mxCell id="0vwhYSBhEatfXBQI3nwf-98" value="删除账号" style="whiteSpace=wrap;html=1;fontSize=3;align=center;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
           <mxGeometry x="304.5" y="2425" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0vwhYSBhEatfXBQI3nwf-100" value="删除ICAM账号" style="whiteSpace=wrap;html=1;fontSize=3;align=left;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
+        <mxCell id="0vwhYSBhEatfXBQI3nwf-100" value="删除ICAM账号" style="whiteSpace=wrap;html=1;fontSize=3;align=center;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
           <mxGeometry x="794.5" y="2429" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0vwhYSBhEatfXBQI3nwf-104" value="end" style="ellipse;whiteSpace=wrap;html=1;fontSize=3;strokeColor=#9673a6;align=center;fillColor=#e1d5e7;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
@@ -1058,7 +1058,7 @@
         <mxCell id="0vwhYSBhEatfXBQI3nwf-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=3;fontColor=#000000;strokeColor=#000000;" parent="cgToNIRmxweL9J4K6Hwx-1" source="0vwhYSBhEatfXBQI3nwf-106" target="0vwhYSBhEatfXBQI3nwf-108" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0vwhYSBhEatfXBQI3nwf-106" value="更新账号为inavtive状态" style="whiteSpace=wrap;html=1;fontSize=3;align=left;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
+        <mxCell id="0vwhYSBhEatfXBQI3nwf-106" value="更新账号为inavtive状态" style="whiteSpace=wrap;html=1;fontSize=3;align=center;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
           <mxGeometry x="299.5" y="2518" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0vwhYSBhEatfXBQI3nwf-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=3;fontColor=#000000;strokeColor=#000000;" parent="cgToNIRmxweL9J4K6Hwx-1" source="0vwhYSBhEatfXBQI3nwf-108" target="0vwhYSBhEatfXBQI3nwf-110" edge="1">
@@ -1155,7 +1155,7 @@
         <mxCell id="qIqbm1GuV4Z4tVqzcLGt-2" value="发送拒绝邮件，删除账户" style="whiteSpace=wrap;html=1;fontSize=3;align=left;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
           <mxGeometry x="275" y="1746" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qIqbm1GuV4Z4tVqzcLGt-6" value="AML check" style="whiteSpace=wrap;html=1;fontSize=3;align=left;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
+        <mxCell id="qIqbm1GuV4Z4tVqzcLGt-6" value="AML check" style="whiteSpace=wrap;html=1;fontSize=3;align=center;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
           <mxGeometry x="1015" y="1959" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qIqbm1GuV4Z4tVqzcLGt-8" value="发送aml check" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=3;fontColor=#000000;strokeColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="cgToNIRmxweL9J4K6Hwx-1" edge="1">
