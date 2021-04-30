@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-30T09:36:49.431Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="5ykmsVHhGl2dTtbY9aqK" version="14.6.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-04-30T09:38:10.430Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="SQqHzEaqbpAk9OHHmCJA" version="14.6.1" type="github" pages="9">
   <diagram id="yBvCHe0X85MX-63PUshE" name="Page-1">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1231,8 +1231,8 @@
         <mxCell id="o6kn5HUl2Uy2k6TkLRGO-0" value="填写信息" style="ellipse;whiteSpace=wrap;html=1;" parent="MmOCJaQO2A9wipT8HTde-1" vertex="1">
           <mxGeometry x="70" y="150" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="25nVW4TRQL5Y1Um1_0UW-1" value="AML check通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="MmOCJaQO2A9wipT8HTde-1" vertex="1">
-          <mxGeometry x="289" y="145" width="100" height="20" as="geometry" />
+        <mxCell id="25nVW4TRQL5Y1Um1_0UW-1" value="1.审核通过&lt;br&gt;2.AML check通过" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="MmOCJaQO2A9wipT8HTde-1" vertex="1">
+          <mxGeometry x="289" y="140" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XxjIWfBq1ooYPUDugfeU-0" value="账户状态图：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="MmOCJaQO2A9wipT8HTde-1" vertex="1">
           <mxGeometry x="50" y="70" width="90" height="20" as="geometry" />
