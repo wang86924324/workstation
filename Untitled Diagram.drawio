@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-29T12:07:22.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="zypYV0uyTzbbFznnY_kQ" version="14.6.0" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-04-30T02:38:03.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="xa9NtbKoHb_eOzIfU3A9" version="14.6.0" type="github" pages="8">
   <diagram id="yBvCHe0X85MX-63PUshE" name="Page-1">
     <mxGraphModel dx="1422" dy="2051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1003,30 +1003,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0vwhYSBhEatfXBQI3nwf-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=3;fontColor=#000000;strokeColor=#000000;dashed=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="cgToNIRmxweL9J4K6Hwx-1" source="0vwhYSBhEatfXBQI3nwf-81" target="0vwhYSBhEatfXBQI3nwf-96" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1166" y="1924" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="356" y="2124" />
-              <mxPoint x="1155" y="2124" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0vwhYSBhEatfXBQI3nwf-93" value="在这之后，后台用户可以手工确认，这里省略了一个查询结果并确认的页面" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=3;fontColor=#000000;" parent="0vwhYSBhEatfXBQI3nwf-92" vertex="1" connectable="0">
-          <mxGeometry x="-0.5107" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="0vwhYSBhEatfXBQI3nwf-81" value="更新账号状态或者创建账号，并标记XML校验不通过" style="whiteSpace=wrap;html=1;fontSize=3;align=left;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
           <mxGeometry x="278" y="2017" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0vwhYSBhEatfXBQI3nwf-83" value="FAIL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=3;fontColor=#000000;strokeColor=#000000;" parent="cgToNIRmxweL9J4K6Hwx-1" target="0vwhYSBhEatfXBQI3nwf-81" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1127" y="2062" />
-            </Array>
-            <mxPoint x="1127" y="1986" as="sourcePoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="0vwhYSBhEatfXBQI3nwf-86" value="通知用户后面接着操作" style="rounded=0;whiteSpace=wrap;html=1;fontSize=3;strokeColor=#9673a6;align=left;fillColor=#e1d5e7;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
           <mxGeometry x="-37" y="2017" width="120" height="60" as="geometry" />
