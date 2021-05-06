@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-06T08:12:52.058Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="OmYB1AnfHhVxtRSbujC8" version="14.6.9" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-05-06T08:15:01.266Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="_msBvzapKNqyYgp_gpZf" version="14.6.9" type="github" pages="9">
   <diagram id="yBvCHe0X85MX-63PUshE" name="Page-1">
     <mxGraphModel dx="1406" dy="1914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1222,8 +1222,8 @@
       <root>
         <mxCell id="MmOCJaQO2A9wipT8HTde-0" />
         <mxCell id="MmOCJaQO2A9wipT8HTde-1" parent="MmOCJaQO2A9wipT8HTde-0" />
-        <mxCell id="MmOCJaQO2A9wipT8HTde-6" value="邮件激活" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="MmOCJaQO2A9wipT8HTde-1" vertex="1">
-          <mxGeometry x="470" y="155" width="60" height="20" as="geometry" />
+        <mxCell id="MmOCJaQO2A9wipT8HTde-6" value="用户邮件激活" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="MmOCJaQO2A9wipT8HTde-1" vertex="1">
+          <mxGeometry x="450" y="160" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="T153C9Wbja0R24q8fntP-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="MmOCJaQO2A9wipT8HTde-1" target="T153C9Wbja0R24q8fntP-3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1296,11 +1296,17 @@
         <mxCell id="LsSLOmt8fnbsoBpSWljr-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MmOCJaQO2A9wipT8HTde-1" source="LsSLOmt8fnbsoBpSWljr-0" target="T153C9Wbja0R24q8fntP-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LsSLOmt8fnbsoBpSWljr-0" value="1.校验通过后&lt;br&gt;2.创建icam" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="MmOCJaQO2A9wipT8HTde-1">
+        <mxCell id="LsSLOmt8fnbsoBpSWljr-0" value="1.校验通过&lt;br&gt;2.创建icam" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="MmOCJaQO2A9wipT8HTde-1">
           <mxGeometry x="40" y="160" width="80" height="35" as="geometry" />
         </mxCell>
         <mxCell id="LsSLOmt8fnbsoBpSWljr-2" value="非手动注册" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="MmOCJaQO2A9wipT8HTde-1">
           <mxGeometry x="90" y="120" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LsSLOmt8fnbsoBpSWljr-4" value="更新审核状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="MmOCJaQO2A9wipT8HTde-1">
+          <mxGeometry x="170" y="230" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LsSLOmt8fnbsoBpSWljr-5" value="更新账户状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="MmOCJaQO2A9wipT8HTde-1">
+          <mxGeometry x="414" y="240" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
