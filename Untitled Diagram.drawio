@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-06T08:15:01.266Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="_msBvzapKNqyYgp_gpZf" version="14.6.9" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-05-06T08:43:47.168Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="HL0QT9KzcFl8mQbsuU6r" version="14.6.9" type="github" pages="9">
   <diagram id="yBvCHe0X85MX-63PUshE" name="Page-1">
     <mxGraphModel dx="1406" dy="1914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -577,7 +577,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BMCTNa1OoHeCo2dL6e_P" name="git-merge">
-    <mxGraphModel dx="2249" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2233" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="V9rTEvtUjlQzhmPd9DNA-0" />
         <mxCell id="V9rTEvtUjlQzhmPd9DNA-1" parent="V9rTEvtUjlQzhmPd9DNA-0" />
@@ -877,7 +877,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0vwhYSBhEatfXBQI3nwf-33" value="国籍风险校验" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fontSize=3;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
+        <mxCell id="0vwhYSBhEatfXBQI3nwf-33" value="国籍风险校验" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fontSize=3;align=left;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
           <mxGeometry x="283" y="729" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0vwhYSBhEatfXBQI3nwf-42" value="fail" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=3;fontColor=#000000;strokeColor=#000000;" parent="cgToNIRmxweL9J4K6Hwx-1" source="0vwhYSBhEatfXBQI3nwf-39" edge="1">
@@ -888,7 +888,7 @@
         <mxCell id="0vwhYSBhEatfXBQI3nwf-44" value="PASS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=3;fontColor=#000000;strokeColor=#000000;" parent="cgToNIRmxweL9J4K6Hwx-1" source="0vwhYSBhEatfXBQI3nwf-39" target="0vwhYSBhEatfXBQI3nwf-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0vwhYSBhEatfXBQI3nwf-39" value="投保人能力校验" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fontSize=3;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
+        <mxCell id="0vwhYSBhEatfXBQI3nwf-39" value="投保人能力校验" style="rhombus;whiteSpace=wrap;html=1;rounded=0;fontSize=3;align=center;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
           <mxGeometry x="283" y="889" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0vwhYSBhEatfXBQI3nwf-45" value="FAIL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=3;fontColor=#000000;strokeColor=#000000;" parent="cgToNIRmxweL9J4K6Hwx-1" source="0vwhYSBhEatfXBQI3nwf-43" edge="1">
@@ -1239,8 +1239,8 @@
         <mxCell id="D4YOUFTtYFlA0PrfKjwU-1" value="1.approve&lt;br&gt;2.pass AML check" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="MmOCJaQO2A9wipT8HTde-1" vertex="1">
           <mxGeometry x="284" y="285" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="D4YOUFTtYFlA0PrfKjwU-5" value="2.Hit &lt;br&gt;AML &lt;br&gt;check" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="MmOCJaQO2A9wipT8HTde-1" vertex="1">
-          <mxGeometry x="220" y="385" width="50" height="50" as="geometry" />
+        <mxCell id="D4YOUFTtYFlA0PrfKjwU-5" value="1.appove&lt;br&gt;2.Hit AML check" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="MmOCJaQO2A9wipT8HTde-1" vertex="1">
+          <mxGeometry x="215" y="395" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0DFgjIQ0hwmUeM1bAqQA-1" value="manual check: allow" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="MmOCJaQO2A9wipT8HTde-1" vertex="1">
           <mxGeometry x="380" y="405" width="120" height="20" as="geometry" />
@@ -1285,22 +1285,27 @@
           <mxGeometry x="310" y="425" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PP1SVY13-g_aIK_qYzwJ-0" value="ICAM:客户系统" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="MmOCJaQO2A9wipT8HTde-1" vertex="1">
-          <mxGeometry x="309" y="10" width="130" height="20" as="geometry" />
+          <mxGeometry x="320" y="10" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="PP1SVY13-g_aIK_qYzwJ-1" value="如果手动没有allow，会状态会怎么流转？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="MmOCJaQO2A9wipT8HTde-1" vertex="1">
-          <mxGeometry x="399" y="465" width="230" height="20" as="geometry" />
+        <mxCell id="PP1SVY13-g_aIK_qYzwJ-1" value="如果手动没有allow，状态会怎么流转？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="MmOCJaQO2A9wipT8HTde-1" vertex="1">
+          <mxGeometry x="404" y="465" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="z_L9pW4J3MTfqjFHou1o-0" value="AML:反洗钱" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="MmOCJaQO2A9wipT8HTde-1" vertex="1">
-          <mxGeometry x="310" y="40" width="130" height="20" as="geometry" />
+          <mxGeometry x="320" y="40" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LsSLOmt8fnbsoBpSWljr-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MmOCJaQO2A9wipT8HTde-1" source="LsSLOmt8fnbsoBpSWljr-0" target="T153C9Wbja0R24q8fntP-4">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="120" />
+              <mxPoint x="414" y="120" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="LsSLOmt8fnbsoBpSWljr-0" value="1.校验通过&lt;br&gt;2.创建icam" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="MmOCJaQO2A9wipT8HTde-1">
           <mxGeometry x="40" y="160" width="80" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="LsSLOmt8fnbsoBpSWljr-2" value="非手动注册" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="MmOCJaQO2A9wipT8HTde-1">
-          <mxGeometry x="90" y="120" width="80" height="20" as="geometry" />
+        <mxCell id="LsSLOmt8fnbsoBpSWljr-2" value="非手动注册" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="MmOCJaQO2A9wipT8HTde-1">
+          <mxGeometry x="130" y="100" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LsSLOmt8fnbsoBpSWljr-4" value="更新审核状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="MmOCJaQO2A9wipT8HTde-1">
           <mxGeometry x="170" y="230" width="90" height="20" as="geometry" />
