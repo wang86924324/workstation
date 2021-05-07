@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T10:31:09.013Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="UVjRw3sq0WM3YWEi-5G1" version="14.6.9" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-05-07T10:33:56.778Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="PqkAW0_0u5zoUdejkfdX" version="14.6.9" type="github" pages="11">
   <diagram id="yBvCHe0X85MX-63PUshE" name="Page-1">
     <mxGraphModel dx="1406" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1064,7 +1064,7 @@
         <mxCell id="0vwhYSBhEatfXBQI3nwf-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=3;fontColor=#000000;strokeColor=#000000;" parent="cgToNIRmxweL9J4K6Hwx-1" source="0vwhYSBhEatfXBQI3nwf-108" target="0vwhYSBhEatfXBQI3nwf-110" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0vwhYSBhEatfXBQI3nwf-108" value="发送激活账号邮件" style="whiteSpace=wrap;html=1;fontSize=3;align=left;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
+        <mxCell id="0vwhYSBhEatfXBQI3nwf-108" value="发送激活账号邮件" style="whiteSpace=wrap;html=1;fontSize=3;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="cgToNIRmxweL9J4K6Hwx-1" vertex="1">
           <mxGeometry x="299.5" y="2622" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0vwhYSBhEatfXBQI3nwf-113" value="用户选择激活" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=3;fontColor=#000000;strokeColor=#000000;" parent="cgToNIRmxweL9J4K6Hwx-1" source="0vwhYSBhEatfXBQI3nwf-110" target="0vwhYSBhEatfXBQI3nwf-112" edge="1">
