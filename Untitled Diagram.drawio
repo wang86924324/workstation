@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T09:36:45.939Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="qHRTnUab__ImOIuapNXp" version="14.6.9" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-05-07T09:38:50.609Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="sLcObISRdH6RMUOF0KBQ" version="14.6.9" type="github" pages="12">
   <diagram id="yBvCHe0X85MX-63PUshE" name="Page-1">
     <mxGraphModel dx="1406" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1622,13 +1622,13 @@
         <mxCell id="BLsDa1TuketIG5CruhhK-68" value="REJECT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=3;fontColor=#000000;strokeColor=#000000;" parent="BLsDa1TuketIG5CruhhK-1" source="BLsDa1TuketIG5CruhhK-70" target="BLsDa1TuketIG5CruhhK-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BLsDa1TuketIG5CruhhK-69" value="allow" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.131;entryY=0.3;entryDx=0;entryDy=0;fontSize=3;fontColor=#000000;strokeColor=#000000;entryPerimeter=0;" parent="BLsDa1TuketIG5CruhhK-1" source="BLsDa1TuketIG5CruhhK-70" target="4zu00SY5IvnCHUeaktwk-1" edge="1">
+        <mxCell id="BLsDa1TuketIG5CruhhK-69" value="allow" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=3;fontColor=#000000;strokeColor=#000000;" parent="BLsDa1TuketIG5CruhhK-1" source="BLsDa1TuketIG5CruhhK-70" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="239" y="2322" />
               <mxPoint x="239" y="2541" />
             </Array>
-            <mxPoint x="271.5" y="2534" as="targetPoint" />
+            <mxPoint x="289" y="2541" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BLsDa1TuketIG5CruhhK-70" value="allow or&lt;br&gt;&amp;nbsp;reject？" style="rhombus;whiteSpace=wrap;html=1;fontSize=3;fontColor=#000000;strokeColor=#000000;align=center;" parent="BLsDa1TuketIG5CruhhK-1" vertex="1">
@@ -1704,7 +1704,7 @@
         <mxCell id="BLsDa1TuketIG5CruhhK-104" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="BLsDa1TuketIG5CruhhK-1" source="BLsDa1TuketIG5CruhhK-107" target="BLsDa1TuketIG5CruhhK-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BLsDa1TuketIG5CruhhK-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="BLsDa1TuketIG5CruhhK-1" source="BLsDa1TuketIG5CruhhK-107" edge="1">
+        <mxCell id="BLsDa1TuketIG5CruhhK-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="BLsDa1TuketIG5CruhhK-1" source="BLsDa1TuketIG5CruhhK-107" target="4zu00SY5IvnCHUeaktwk-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="225" y="2096" />
@@ -1783,8 +1783,25 @@
         <mxCell id="4zu00SY5IvnCHUeaktwk-0" value="更新账号为inavtive状态" style="whiteSpace=wrap;html=1;fontSize=3;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="BLsDa1TuketIG5CruhhK-1">
           <mxGeometry x="273" y="2633" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4zu00SY5IvnCHUeaktwk-1" value="allow or&lt;br&gt;&amp;nbsp;reject？" style="rhombus;whiteSpace=wrap;html=1;fontSize=3;fontColor=#000000;strokeColor=#000000;align=center;" vertex="1" parent="BLsDa1TuketIG5CruhhK-1">
-          <mxGeometry x="284.5" y="2517" width="80" height="80" as="geometry" />
+        <mxCell id="4zu00SY5IvnCHUeaktwk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="BLsDa1TuketIG5CruhhK-1" source="4zu00SY5IvnCHUeaktwk-1" target="4zu00SY5IvnCHUeaktwk-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4zu00SY5IvnCHUeaktwk-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BLsDa1TuketIG5CruhhK-1" source="4zu00SY5IvnCHUeaktwk-1" target="BLsDa1TuketIG5CruhhK-83">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="426" y="2540" />
+              <mxPoint x="426" y="2857" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4zu00SY5IvnCHUeaktwk-1" value="&amp;nbsp;需要邮件激活？" style="rhombus;whiteSpace=wrap;html=1;fontSize=3;strokeColor=#6c8ebf;align=center;fillColor=#dae8fc;" vertex="1" parent="BLsDa1TuketIG5CruhhK-1">
+          <mxGeometry x="293.5" y="2500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4zu00SY5IvnCHUeaktwk-6" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="BLsDa1TuketIG5CruhhK-1">
+          <mxGeometry x="341" y="2590" width="22" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="4zu00SY5IvnCHUeaktwk-8" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="BLsDa1TuketIG5CruhhK-1">
+          <mxGeometry x="380" y="2514" width="22" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
