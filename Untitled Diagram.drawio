@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T10:39:58.640Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="Ed-YYQBgnI5WBFZNddo-" version="14.6.9" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-05-07T10:53:42.302Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36" etag="CUChOu9C5ZXMkF58w_4T" version="14.6.9" type="github" pages="11">
   <diagram id="yBvCHe0X85MX-63PUshE" name="Page-1">
     <mxGraphModel dx="1406" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1431,10 +1431,7 @@
           <mxGeometry x="310" y="280" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dVcr7alOxYaIrUl-EgBx-22" value="CIAM: 三方系统，管账户邮箱和密码的地方" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="dVcr7alOxYaIrUl-EgBx-1" vertex="1">
-          <mxGeometry x="320" y="10" width="240" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="dVcr7alOxYaIrUl-EgBx-23" value="如果手动没有allow，状态会怎么流转？&lt;br&gt;手动reject、一直在pending aml状态" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="dVcr7alOxYaIrUl-EgBx-1" vertex="1">
-          <mxGeometry x="520" y="405" width="220" height="30" as="geometry" />
+          <mxGeometry x="320" y="20" width="240" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dVcr7alOxYaIrUl-EgBx-24" value="AML:反洗钱" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="dVcr7alOxYaIrUl-EgBx-1" vertex="1">
           <mxGeometry x="320" y="40" width="130" height="20" as="geometry" />
