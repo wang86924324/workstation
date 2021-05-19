@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T13:02:35.089Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="dB09Gewzs2_XKpbMAOKN" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-19T01:55:27.636Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="nPop9E5QkE0-YSocvrNy" version="14.6.13" type="github">
   <diagram id="foWExXhYiQzyduggugy_" name="nacos-register">
     <mxGraphModel dx="1422" dy="882" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,7 +87,7 @@
           <mxGeometry x="347" y="608" width="67" height="40" as="geometry" />
         </mxCell>
         <mxCell id="h4xfZA1LVQiVuEA5MYY8-13" value="延时执行定时任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="174" y="608" width="106" height="18" as="geometry" />
+          <mxGeometry x="185" y="605" width="106" height="18" as="geometry" />
         </mxCell>
         <mxCell id="h4xfZA1LVQiVuEA5MYY8-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h4xfZA1LVQiVuEA5MYY8-14" target="h4xfZA1LVQiVuEA5MYY8-21">
           <mxGeometry relative="1" as="geometry" />
@@ -160,6 +160,12 @@
         <mxCell id="h4xfZA1LVQiVuEA5MYY8-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h4xfZA1LVQiVuEA5MYY8-44" target="h4xfZA1LVQiVuEA5MYY8-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h4xfZA1LVQiVuEA5MYY8-44" target="h4xfZA1LVQiVuEA5MYY8-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="h4xfZA1LVQiVuEA5MYY8-44" target="h4xfZA1LVQiVuEA5MYY8-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="h4xfZA1LVQiVuEA5MYY8-44" value="createEmptyService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="402" y="721" width="144" height="40" as="geometry" />
         </mxCell>
@@ -183,6 +189,95 @@
         </mxCell>
         <mxCell id="h4xfZA1LVQiVuEA5MYY8-54" value="30s没有收到心跳" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="753" y="759" width="101" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-55" value="持久化实例注册（CP）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="103" y="814" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="h4xfZA1LVQiVuEA5MYY8-57" target="h4xfZA1LVQiVuEA5MYY8-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="h4xfZA1LVQiVuEA5MYY8-57" target="h4xfZA1LVQiVuEA5MYY8-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-57" value="DistroProtocolConsistency&lt;br&gt;Service.put(key,value)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="402" y="822" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-60" value="持久化实例" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="169" y="715" width="70" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-61" value="临时实例" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="481" y="777" width="58" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h4xfZA1LVQiVuEA5MYY8-63" target="h4xfZA1LVQiVuEA5MYY8-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h4xfZA1LVQiVuEA5MYY8-63" target="h4xfZA1LVQiVuEA5MYY8-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-63" value="另外阻塞在这个队列继续执行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="402" y="918" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-65" value="加入队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="472" y="881" width="58" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-66" value="copyonWrite更新注册实例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1019" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-68" value="udp方式通知订阅客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="487" y="1019" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="h4xfZA1LVQiVuEA5MYY8-71" target="h4xfZA1LVQiVuEA5MYY8-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-71" value="&amp;nbsp;distroProtocol.sync" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="722" y="822" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-73" value="同步实例给集群其他节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="563" y="820" width="142" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-74" value="另外阻塞在这个队列继续执行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="722" y="918" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-75" value="加入队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="792" y="881" width="58" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" target="h4xfZA1LVQiVuEA5MYY8-78" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="794" y="963" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h4xfZA1LVQiVuEA5MYY8-78" target="h4xfZA1LVQiVuEA5MYY8-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h4xfZA1LVQiVuEA5MYY8-78" target="h4xfZA1LVQiVuEA5MYY8-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-78" value="另外阻塞在这个队列继续执行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="722" y="1019" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-79" value="加入队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="792" y="982" width="58" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="h4xfZA1LVQiVuEA5MYY8-80" target="h4xfZA1LVQiVuEA5MYY8-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1018" y="1164" />
+              <mxPoint x="276" y="1164" />
+              <mxPoint x="276" y="842" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-80" value="调用远程同步" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="946" y="1019" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-82" value="handleFailedTask()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="722" y="1110" width="144" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-84" value="如果同步不成功重试" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="726.5" y="1073" width="118" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="h4xfZA1LVQiVuEA5MYY8-86" value="远程节点会执行这个方法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="309.5" y="1146" width="142" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
