@@ -1,1 +1,116 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T02:40:09.463Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.6.13" etag="Nb1-YezWbbW5Wl5R_sSB" type="github"><diagram id="vCN4ztp4SLConP8KWftw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-26T06:23:59.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="eDLU8EOU1AvZlG7mDpmg" version="14.6.13" type="github" pages="2">
+  <diagram id="vCN4ztp4SLConP8KWftw" name="第 1 页">
+    <mxGraphModel dx="1422" dy="882" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Jsc-P-yNYe4JxFTewYjW-1" value="外部支付平台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsc-P-yNYe4JxFTewYjW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Jsc-P-yNYe4JxFTewYjW-2" target="Jsc-P-yNYe4JxFTewYjW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsc-P-yNYe4JxFTewYjW-2" value="payment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="140" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsc-P-yNYe4JxFTewYjW-4" value="" style="endArrow=none;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="240" as="sourcePoint" />
+            <mxPoint x="780" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jsc-P-yNYe4JxFTewYjW-16" value="系统边界" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Jsc-P-yNYe4JxFTewYjW-4">
+          <mxGeometry x="-0.9237" y="-2" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jsc-P-yNYe4JxFTewYjW-5" value="trade/application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="450" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsc-P-yNYe4JxFTewYjW-7" value="外部支付平台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="450" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsc-P-yNYe4JxFTewYjW-8" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Jsc-P-yNYe4JxFTewYjW-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="338" as="sourcePoint" />
+            <mxPoint x="190" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jsc-P-yNYe4JxFTewYjW-10" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Jsc-P-yNYe4JxFTewYjW-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="509.5" y="270" as="sourcePoint" />
+            <mxPoint x="509.5" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jsc-P-yNYe4JxFTewYjW-11" value="保单交易对账" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="220" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsc-P-yNYe4JxFTewYjW-13" value="内部数据一致性检查" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="293" y="351" width="118" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="Jsc-P-yNYe4JxFTewYjW-14" value="支付交易对账" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="220" width="90" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="64h7m7v6HGqwJfMG5XBQ" name="Job流程图">
+    <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="9itbxlDxq5A85XLx_e3_-0" />
+        <mxCell id="9itbxlDxq5A85XLx_e3_-1" parent="9itbxlDxq5A85XLx_e3_-0" />
+        <mxCell id="9itbxlDxq5A85XLx_e3_-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9itbxlDxq5A85XLx_e3_-1" source="9itbxlDxq5A85XLx_e3_-2" target="9itbxlDxq5A85XLx_e3_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9itbxlDxq5A85XLx_e3_-2" value="启动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9itbxlDxq5A85XLx_e3_-1">
+          <mxGeometry x="90" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9itbxlDxq5A85XLx_e3_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9itbxlDxq5A85XLx_e3_-1" source="9itbxlDxq5A85XLx_e3_-3" target="9itbxlDxq5A85XLx_e3_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9itbxlDxq5A85XLx_e3_-3" value="Queue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9itbxlDxq5A85XLx_e3_-1">
+          <mxGeometry x="290" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9itbxlDxq5A85XLx_e3_-5" value="生成队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="9itbxlDxq5A85XLx_e3_-1">
+          <mxGeometry x="220" y="190" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9itbxlDxq5A85XLx_e3_-6" value="消费者" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="9itbxlDxq5A85XLx_e3_-1">
+          <mxGeometry x="490" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9itbxlDxq5A85XLx_e3_-8" value="消费" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="9itbxlDxq5A85XLx_e3_-1">
+          <mxGeometry x="410" y="180" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9itbxlDxq5A85XLx_e3_-10" value="启动的时候应该要注册一个定时器来执行job里面的方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9itbxlDxq5A85XLx_e3_-1">
+          <mxGeometry x="54" y="130" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9itbxlDxq5A85XLx_e3_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="9itbxlDxq5A85XLx_e3_-1" source="9itbxlDxq5A85XLx_e3_-15" target="9itbxlDxq5A85XLx_e3_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9itbxlDxq5A85XLx_e3_-15" value="Job规则" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="9itbxlDxq5A85XLx_e3_-1">
+          <mxGeometry x="500" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9itbxlDxq5A85XLx_e3_-17" value="配置Job规则" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="9itbxlDxq5A85XLx_e3_-1">
+          <mxGeometry x="645" y="380" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9itbxlDxq5A85XLx_e3_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="9itbxlDxq5A85XLx_e3_-1" source="9itbxlDxq5A85XLx_e3_-19" target="9itbxlDxq5A85XLx_e3_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9itbxlDxq5A85XLx_e3_-19" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;jetbrains mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;SimpleChannel&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;jetbrains mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;InboundHandler&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="9itbxlDxq5A85XLx_e3_-1">
+          <mxGeometry x="290" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9itbxlDxq5A85XLx_e3_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="9itbxlDxq5A85XLx_e3_-1" source="9itbxlDxq5A85XLx_e3_-20" target="9itbxlDxq5A85XLx_e3_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9itbxlDxq5A85XLx_e3_-20" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;align=left;" vertex="1" parent="9itbxlDxq5A85XLx_e3_-1">
+          <mxGeometry x="750" y="380" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9itbxlDxq5A85XLx_e3_-24" value="定时推送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="9itbxlDxq5A85XLx_e3_-1">
+          <mxGeometry x="410" y="370" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9itbxlDxq5A85XLx_e3_-26" value="规则进入本地队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="9itbxlDxq5A85XLx_e3_-1">
+          <mxGeometry x="350" y="290" width="110" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
