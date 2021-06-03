@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-03T09:17:08.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="Na-S9u-CPYv4BzfnF2vw" version="14.7.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-03T11:40:28.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="_sloPhrj-Q5QEfIB-OqR" version="14.7.2" type="github" pages="2">
   <diagram id="jrEF4gRcucEWSl6Toge2" name="场景出单主流程-非optIn场景">
     <mxGraphModel dx="1422" dy="882" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,8 +68,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="ETxTxEPfXVUdgcn5-T-c" name="商城下单流程图">
-    <mxGraphModel dx="1822" dy="882" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="ETxTxEPfXVUdgcn5-T-c" name="商城核心业务流程">
+    <mxGraphModel dx="1822" dy="1282" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="sLGmiyCCUS508zdfLPRI-0" />
         <mxCell id="sLGmiyCCUS508zdfLPRI-1" parent="sLGmiyCCUS508zdfLPRI-0" />
@@ -79,7 +79,7 @@
         <mxCell id="sLGmiyCCUS508zdfLPRI-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-2" target="sLGmiyCCUS508zdfLPRI-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sLGmiyCCUS508zdfLPRI-2" value="商城首页" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
+        <mxCell id="sLGmiyCCUS508zdfLPRI-2" value="商城首页" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
           <mxGeometry x="-13" y="121" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sLGmiyCCUS508zdfLPRI-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-3" target="sLGmiyCCUS508zdfLPRI-5">
@@ -88,7 +88,7 @@
         <mxCell id="sLGmiyCCUS508zdfLPRI-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-3" target="sLGmiyCCUS508zdfLPRI-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sLGmiyCCUS508zdfLPRI-3" value="商品详情" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
+        <mxCell id="sLGmiyCCUS508zdfLPRI-3" value="商品详情" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
           <mxGeometry x="-13" y="261" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sLGmiyCCUS508zdfLPRI-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-5" target="sLGmiyCCUS508zdfLPRI-7">
@@ -97,7 +97,7 @@
         <mxCell id="sLGmiyCCUS508zdfLPRI-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-5" target="sLGmiyCCUS508zdfLPRI-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sLGmiyCCUS508zdfLPRI-5" value="产品试算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
+        <mxCell id="sLGmiyCCUS508zdfLPRI-5" value="产品试算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
           <mxGeometry x="-13" y="401" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sLGmiyCCUS508zdfLPRI-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-7" target="sLGmiyCCUS508zdfLPRI-9">
@@ -106,7 +106,7 @@
         <mxCell id="sLGmiyCCUS508zdfLPRI-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-7" target="sLGmiyCCUS508zdfLPRI-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sLGmiyCCUS508zdfLPRI-7" value="健康告知/财务告知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
+        <mxCell id="sLGmiyCCUS508zdfLPRI-7" value="健康告知/财务告知" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
           <mxGeometry x="-13" y="541" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sLGmiyCCUS508zdfLPRI-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-9" target="sLGmiyCCUS508zdfLPRI-11">
@@ -115,7 +115,7 @@
         <mxCell id="sLGmiyCCUS508zdfLPRI-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-9" target="sLGmiyCCUS508zdfLPRI-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sLGmiyCCUS508zdfLPRI-9" value="投保信息填写，并下单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
+        <mxCell id="sLGmiyCCUS508zdfLPRI-9" value="投保信息填写，并下单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
           <mxGeometry x="-13" y="681" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sLGmiyCCUS508zdfLPRI-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-11" target="sLGmiyCCUS508zdfLPRI-13">
@@ -124,7 +124,7 @@
         <mxCell id="sLGmiyCCUS508zdfLPRI-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-11" target="sLGmiyCCUS508zdfLPRI-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sLGmiyCCUS508zdfLPRI-11" value="核保" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
+        <mxCell id="sLGmiyCCUS508zdfLPRI-11" value="核保" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
           <mxGeometry x="-13" y="821" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sLGmiyCCUS508zdfLPRI-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-13" target="sLGmiyCCUS508zdfLPRI-15">
@@ -133,13 +133,16 @@
         <mxCell id="sLGmiyCCUS508zdfLPRI-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-13" target="sLGmiyCCUS508zdfLPRI-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sLGmiyCCUS508zdfLPRI-13" value="支付" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
+        <mxCell id="sLGmiyCCUS508zdfLPRI-13" value="支付" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
           <mxGeometry x="-13" y="961" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sLGmiyCCUS508zdfLPRI-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-15" target="sLGmiyCCUS508zdfLPRI-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sLGmiyCCUS508zdfLPRI-15" value="出单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
+        <mxCell id="sLGmiyCCUS508zdfLPRI-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-15" target="sLGmiyCCUS508zdfLPRI-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLGmiyCCUS508zdfLPRI-15" value="出单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
           <mxGeometry x="-13" y="1101" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sLGmiyCCUS508zdfLPRI-17" value="商城首页接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
@@ -160,11 +163,44 @@
         <mxCell id="sLGmiyCCUS508zdfLPRI-27" value="提交订单会核保，内部接口，不对外暴露" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
           <mxGeometry x="415" y="821" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sLGmiyCCUS508zdfLPRI-29" value="支付申请&lt;br&gt;发起网关支付&lt;br&gt;支付成功处理" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
-          <mxGeometry x="419" y="961" width="120" height="60" as="geometry" />
+        <mxCell id="sLGmiyCCUS508zdfLPRI-29" value="支付申请&lt;br&gt;异步发起网关支付&lt;br&gt;同步发起网关支付&lt;br&gt;查询订单支付结果接口&lt;br&gt;查询支付状态（异步支付）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
+          <mxGeometry x="419" y="955" width="161" height="72" as="geometry" />
         </mxCell>
         <mxCell id="sLGmiyCCUS508zdfLPRI-31" value="支付成功后，调用保险公司出单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
           <mxGeometry x="417" y="1101" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sLGmiyCCUS508zdfLPRI-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-33" target="sLGmiyCCUS508zdfLPRI-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLGmiyCCUS508zdfLPRI-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-33" target="sLGmiyCCUS508zdfLPRI-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLGmiyCCUS508zdfLPRI-33" value="保单列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
+          <mxGeometry x="-13" y="1241" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sLGmiyCCUS508zdfLPRI-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-35" target="sLGmiyCCUS508zdfLPRI-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLGmiyCCUS508zdfLPRI-35" value="保单详情" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
+          <mxGeometry x="-13" y="1381" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sLGmiyCCUS508zdfLPRI-40" value="保单列表查询接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
+          <mxGeometry x="417" y="1241" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sLGmiyCCUS508zdfLPRI-42" value="保单详情接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
+          <mxGeometry x="421" y="1381" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sLGmiyCCUS508zdfLPRI-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-44" target="sLGmiyCCUS508zdfLPRI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLGmiyCCUS508zdfLPRI-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-44" target="sLGmiyCCUS508zdfLPRI-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sLGmiyCCUS508zdfLPRI-44" value="注册/登录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
+          <mxGeometry x="-13" y="-27" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sLGmiyCCUS508zdfLPRI-47" value="1.Oauth2授权登录&lt;br&gt;2.外部token直接注册" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
+          <mxGeometry x="405" y="-27" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
