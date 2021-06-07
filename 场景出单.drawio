@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-03T11:40:28.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="_sloPhrj-Q5QEfIB-OqR" version="14.7.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-06-07T02:04:22.100Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ZrdcovJEJZ-625DT6biP" version="14.7.2" type="github" pages="2">
   <diagram id="jrEF4gRcucEWSl6Toge2" name="场景出单主流程-非optIn场景">
     <mxGraphModel dx="1422" dy="882" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -163,10 +163,10 @@
         <mxCell id="sLGmiyCCUS508zdfLPRI-27" value="提交订单会核保，内部接口，不对外暴露" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
           <mxGeometry x="415" y="821" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sLGmiyCCUS508zdfLPRI-29" value="支付申请&lt;br&gt;异步发起网关支付&lt;br&gt;同步发起网关支付&lt;br&gt;查询订单支付结果接口&lt;br&gt;查询支付状态（异步支付）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
+        <mxCell id="sLGmiyCCUS508zdfLPRI-29" value="1.支付申请&lt;br&gt;2.异步发起网关支付&lt;br&gt;3.同步发起网关支付&lt;br&gt;4.查询订单支付结果接口&lt;br&gt;5.查询支付状态（异步支付）" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
           <mxGeometry x="419" y="955" width="161" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="sLGmiyCCUS508zdfLPRI-31" value="支付成功后，调用保险公司出单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
+        <mxCell id="sLGmiyCCUS508zdfLPRI-31" value="&lt;span&gt;支付成功后，调用保险公司出单&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="sLGmiyCCUS508zdfLPRI-1">
           <mxGeometry x="417" y="1101" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sLGmiyCCUS508zdfLPRI-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sLGmiyCCUS508zdfLPRI-1" source="sLGmiyCCUS508zdfLPRI-33" target="sLGmiyCCUS508zdfLPRI-35">
