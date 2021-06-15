@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T06:31:52.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="R1UE5WDm32wYmq76Vf2c" version="14.7.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-06-15T06:53:03.333Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="tiOfWjx8huV4h82Tkg0p" version="14.7.2" type="github" pages="5">
   <diagram id="jrEF4gRcucEWSl6Toge2" name="场景出单主流程-非optIn场景">
     <mxGraphModel dx="1422" dy="882" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -391,13 +391,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nvsdgd-wamu8QEuQGW2f-9" value="展示信息&lt;br&gt;（商详信息）" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="nvsdgd-wamu8QEuQGW2f-1">
-          <mxGeometry x="292" y="233" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="278" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nvsdgd-wamu8QEuQGW2f-10" value="出单/投保配置" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="nvsdgd-wamu8QEuQGW2f-1">
           <mxGeometry x="289" y="534" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nvsdgd-wamu8QEuQGW2f-11" value="财务配置" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="nvsdgd-wamu8QEuQGW2f-1">
           <mxGeometry x="282" y="658" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz_K1h2-JYDwXOc5xix_-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="nvsdgd-wamu8QEuQGW2f-1" source="nvsdgd-wamu8QEuQGW2f-12" target="Bz_K1h2-JYDwXOc5xix_-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nvsdgd-wamu8QEuQGW2f-12" value="产品维度信息" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="nvsdgd-wamu8QEuQGW2f-1">
           <mxGeometry x="529" y="-108" width="120" height="60" as="geometry" />
@@ -408,8 +411,13 @@
         <mxCell id="hn9nWE-NJSEzgAluZoBT-1" value="计划信息" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="nvsdgd-wamu8QEuQGW2f-1">
           <mxGeometry x="533" y="-23" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hn9nWE-NJSEzgAluZoBT-3" value="试算要素" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="nvsdgd-wamu8QEuQGW2f-1">
-          <mxGeometry x="745" y="-23" width="120" height="60" as="geometry" />
+        <mxCell id="hn9nWE-NJSEzgAluZoBT-3" value="code/名称/试算要素" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="nvsdgd-wamu8QEuQGW2f-1">
+          <mxGeometry x="733" y="-23" width="181" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz_K1h2-JYDwXOc5xix_-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="nvsdgd-wamu8QEuQGW2f-1" source="hn9nWE-NJSEzgAluZoBT-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="733" y="104" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="hn9nWE-NJSEzgAluZoBT-5" value="投保要素" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="nvsdgd-wamu8QEuQGW2f-1">
           <mxGeometry x="533" y="74" width="120" height="60" as="geometry" />
@@ -431,6 +439,12 @@
         </mxCell>
         <mxCell id="hn9nWE-NJSEzgAluZoBT-13" value="保险条款" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="nvsdgd-wamu8QEuQGW2f-1">
           <mxGeometry x="543" y="578" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz_K1h2-JYDwXOc5xix_-0" value="编号/名称/列表图片/详情图片/保险公司" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="nvsdgd-wamu8QEuQGW2f-1">
+          <mxGeometry x="731" y="-110" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bz_K1h2-JYDwXOc5xix_-2" value="类型/code/枚举列表/校验规则" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="nvsdgd-wamu8QEuQGW2f-1">
+          <mxGeometry x="733" y="71" width="181" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
