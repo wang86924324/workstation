@@ -1,1 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T07:32:17.291Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.8.1" etag="RU6-Sqvi8fXDYbZGpahe" type="github"><diagram id="oNaJPqva3_gi03qDOTQx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-01T08:02:48.892Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="VdpccND4Cg0oPemEivwD" version="14.8.1" type="github">
+  <diagram id="oNaJPqva3_gi03qDOTQx" name="第 1 页">
+    <mxGraphModel dx="1822" dy="882" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="USEUZKZDW7kvn1kXKz_W-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="USEUZKZDW7kvn1kXKz_W-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="48" y="324" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="USEUZKZDW7kvn1kXKz_W-2" value="Fusion" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="44" y="132" width="46" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="USEUZKZDW7kvn1kXKz_W-3" value="Graphene" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="132" width="63" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="USEUZKZDW7kvn1kXKz_W-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="USEUZKZDW7kvn1kXKz_W-4" target="USEUZKZDW7kvn1kXKz_W-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="512" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="USEUZKZDW7kvn1kXKz_W-35" value="G测试可在本BUG流转给开发，或另外新增BUG跟进" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="USEUZKZDW7kvn1kXKz_W-34">
+          <mxGeometry x="-0.3507" y="-41" relative="1" as="geometry">
+            <mxPoint x="65" y="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="USEUZKZDW7kvn1kXKz_W-4" value="JIRA创建TASK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="451.5" y="175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="USEUZKZDW7kvn1kXKz_W-8" value="link到graphene专用task" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="172" y="270" width="137" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="USEUZKZDW7kvn1kXKz_W-11" value="开发者：G开发&lt;br&gt;测试者：G测试&lt;br&gt;reporter：F测试" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-86" y="310" width="95" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="USEUZKZDW7kvn1kXKz_W-12" value="毛毛" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="576" y="153" width="34" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="USEUZKZDW7kvn1kXKz_W-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="USEUZKZDW7kvn1kXKz_W-13" target="USEUZKZDW7kvn1kXKz_W-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="122.03999999999996" y="295.02" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="USEUZKZDW7kvn1kXKz_W-13" value="YJ Task" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7" y="171" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="USEUZKZDW7kvn1kXKz_W-15" value="发现创建bug" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="66" y="255" width="78" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="USEUZKZDW7kvn1kXKz_W-26" value="&lt;span style=&quot;&quot;&gt;BUG：新建&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="7" y="296" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="USEUZKZDW7kvn1kXKz_W-39" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="USEUZKZDW7kvn1kXKz_W-27" target="USEUZKZDW7kvn1kXKz_W-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="USEUZKZDW7kvn1kXKz_W-27" value="&lt;span&gt;BUG：验证通过&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="451.5" y="356" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="USEUZKZDW7kvn1kXKz_W-38" value="&lt;span&gt;BUG：关闭&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="7" y="455" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="USEUZKZDW7kvn1kXKz_W-41" value="开发者：G开发&lt;br&gt;测试者：G测试&lt;br&gt;reporter：F测试" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="576" y="388" width="95" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="USEUZKZDW7kvn1kXKz_W-42" value="开发者：G开发&lt;br&gt;测试者：F测试&lt;br&gt;reporter：F测试" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-94" y="472" width="95" height="46" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
